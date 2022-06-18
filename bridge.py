@@ -398,6 +398,7 @@ def main():
         glClearColor(0.0,0.5,1.0,0.0)
         glBindVertexArray(bg.vao)
         glDrawArrays(GL_TRIANGLES, 0, 6)
+        # the draw function to be displayed
         draw()
         pygame.display.flip()
         pygame.time.wait(10)
